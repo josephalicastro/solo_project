@@ -1,0 +1,38 @@
+Website - Band Showcase
+
+A social networking site for musicians!
+
+(1) Log and Reg with validations
+	https://bandshowcase/login_registration.com
+
+(1) User can [create] object to database
+	https://bandshowcase/create_my_band.com
+	
+(1) User can [read] or view objects retrieved from database
+	https://bandshowcase/my_band.com (other users pages)
+
+(1) User may like, favorite, rsvp etc. [many-to-many]
+	https://bandshowcase/music.com
+
+(1) Use of Django Templating engine (loop to render db data, conditional rendering)
+	https://bandshowcase.com/band_finder.com
+
+(1) User may [edit] profile or posted data
+	https://bandshowcase/edit_my_band.com
+
+(1) User may [delete] profile or posted data
+	https://bandshowcase/my_band.com
+	
+(1) Application includes protected route (user must be in session to view)
+	https://bandshowcase/my_band.com
+
+(1) Application features static content (CSS, images, JS)
+	All webpages
+
+(1) Created data must be validated (events cannot be in the past, wall posts must include content, no duplicate data, etc)
+	All webpages with forms
+
+
+All webpages will link to "Home" and "My Band".
+
+Additional thoughts: creating an option to search for bands that need a certain musician (guitarist, singer, drummer, etc.)
